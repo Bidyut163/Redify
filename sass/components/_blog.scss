@@ -1,0 +1,51 @@
+.blog {
+    &__picture {
+        height: 23rem;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__picture--1 {
+        background-image: linear-gradient(
+                rgba($color-primary, 0.5),
+                rgba($color-primary, 0.5)
+            ),
+            url(../img/blog-img-1.jpg);
+    }
+
+    &__picture--2 {
+        background-image: linear-gradient(
+                rgba($color-primary, 0.5),
+                rgba($color-primary, 0.5)
+            ),
+            url(../img/blog-img-2.jpg);
+    }
+
+    &__heading {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-primary;
+        margin: 1rem 0;
+    }
+
+    &__info {
+        display: flex;
+
+        div:not(:last-child) {
+            margin-right: 3rem;
+        }
+    }
+
+    &__details {
+        display: flex;
+        align-items: center;
+
+        svg {
+            fill: $color-grey-dark;
+            height: 2rem;
+            width: 2rem;
+            margin-right: 0.7rem;
+        }
+    }
+}

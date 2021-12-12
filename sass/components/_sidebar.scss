@@ -1,0 +1,19 @@
+.sidebar {
+    grid-column: 1 / span 3;
+
+    div {
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.sale {
+    height: 15rem;
+    background-color: $color-primary;
+}
+
+.shipping {
+    height: 15rem;
+    background-color: $color-primary-2;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "redify",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch:sass": "node-sass sass/main.scss css/style.css -w",
+        "start": "live-server"
+    },
+    "author": "Bidyut Deka",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^6.0.1"
+    },
+    "dependencies": {
+        "live-server": "^1.2.1"
+    }
+}

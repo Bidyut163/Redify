@@ -1,0 +1,32 @@
+.search {
+    display: flex;
+    align-items: stretch;
+
+    &__input {
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        border: 2px solid $color-primary-2;
+        width: 100%;
+        padding: 1.5rem 3rem;
+        margin-right: -5rem;
+    }
+
+    &__button {
+        border: none;
+        background-color: $color-primary;
+        display: inline-block;
+        padding: 1.5rem;
+        transition: all 0.4s;
+
+        &:hover {
+            background-color: rgba($color-primary, 0.8);
+        }
+    }
+
+    &__icon {
+        fill: #fff;
+        height: 2rem;
+        width: 2rem;
+    }
+}

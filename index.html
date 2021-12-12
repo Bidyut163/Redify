@@ -1,0 +1,337 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- google fonts Roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <!-- Custom stylesheet -->
+        <link rel="stylesheet" href="./css/style.css">
+
+        <title>Redify</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo-box">
+                    <img src="./img/logo-cropped.png" alt="" class="navbar__logo">
+                </div>
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Contact</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Sitemap</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Currency</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">English</a>
+                    </li>
+                </ul>
+
+                <div class="navbar__sign-in">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#icon-user"></use>
+                    </svg>
+                    Sign In
+                </div>
+            </nav>
+            <div class="sidebar">
+                <div class="menu-main">
+                    <h3 class="menu-main__heading">Menu</h3>
+                    <ul class="menu-main__list">
+                        <li class="menu-main__item"><a href="#" class="menu-main__link">Rackets</a></li>
+                        <li class="menu-main__item"><a href="#" class="menu-main__link">Clothing</a></li>
+                        <li class="menu-main__item"><a href="#" class="menu-main__link">Shoes</a></li>
+                        <li class="menu-main__item"><a href="#" class="menu-main__link">Bags</a></li>
+                        <li class="menu-main__item"><a href="#" class="menu-main__link">Tennis balls</a></li>
+                    </ul>
+                </div>
+                <div class="menu-sub">
+                    <h3 class="menu-sub__heading">Manufacturers</h3>
+                    <ul class="menu-sub__list">
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Addidas</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Allien Tennis String</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">All for color</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">Alpha and rab string</a></li>
+                        <li class="menu-sub__item"><a href="#" class="menu-sub__link">AME & LULU</a></li>
+                    </ul>
+                </div>
+                <div class="box box--sale">
+                    <h4>Sale</h4>
+                    <h5>50% off</h4>
+                    <p>Shop now</p>
+                </div>
+                <div class="box box--shipping">
+                    <h4>Free</h4>
+                    <h5>Shipping</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, soluta.</p>
+                </div>
+            </div>
+
+            <section class="section-main">
+                <header class="header">
+                    <form action="#" class="search">
+                        <input type="text" class="search__input" placeholder="Search">
+                        <button class="search__button">
+                            <svg class="search__icon">
+                                <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+                            </svg>
+                        </button>
+                    </form>
+                    <button class="cart-btn">
+                        <svg class="cart-btn__icon">
+                            <use xlink:href="./img/sprite.svg#icon-shopping-cart"></use>
+                        </svg>
+                        <span>Cart(Empty)</span> 
+                        <svg class="cart-btn__icon">
+                            <use xlink:href="./img/sprite.svg#icon-triangle-down"></use>
+                        </svg>
+                    </button>
+                    <div class="header__banner">
+                        <h1 class="heading-1">Sale</h1>
+                        <h2 class="heading-2 u-mb-md">50% off</h2>
+                        <a href="#" class="btn btn--transparent btn--animated">Shop Now!</a>
+                    </div>
+                </header>
+            
+                <div class="arrivals">
+                    <div class="arrivals__footware">
+                        <h4 class="heading-4 u-mb-sm">New Arrivals</h4>
+                        <h3 class="heading-3">Footware</h3>
+                        <a href="#" class="btn-inline">Shop now!</a>
+                    </div>
+                    <div class="arrivals__apparel">
+                        <h4 class="heading-4 u-mb-sm">New Arrivals</h4>
+                        <h3 class="heading-3">Apparels</h3>
+                        <p class="arrivals__text u-mb-sm">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                        <a href="#" class="btn btn--primary">Shop Now!</a>
+                    </div>
+                    <div class="arrivals__bags">
+                        <h4 class="heading-4 u-mb-sm">New Arrivals</h4>
+                        <h3 class="heading-3 ">Bags</h3>
+                        <a href="#" class="btn-inline">Shop now!</a>
+                    </div>
+                </div>
+            
+                <div class="section-best-sellers">
+                    <div class="best-seller">
+                        <img src="./img/best-seller-1.png" alt="" class="best-seller__image">
+                        <div class="best-seller__price">$182</div>
+                        <h4 class="best-seller__name">Racket</h4>
+                        <p class="best-seller__text u-mb-sm">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nisi quaerat ducimus maxime vel dolore!
+                        </p>
+                        <a href="#" class="btn-inline">Shop now!</a>
+                    </div>
+
+                    <div class="best-seller">
+                        <img src="./img/best-seller-2.png" alt="" class="best-seller__image">
+                        <div class="best-seller__price">$282</div>
+                        <h4 class="best-seller__name">Football</h4>
+                        <p class="best-seller__text u-mb-sm">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nisi quaerat ducimus maxime vel dolore!
+                        </p>
+                        <a href="#" class="btn-inline">Shop now!</a>
+                    </div>
+
+                    <div class="best-seller">
+                        <img src="./img/best-seller-3.png" alt="" class="best-seller__image">
+                        <div class="best-seller__price">$142</div>
+                        <h4 class="best-seller__name">Baseball Bat</h4>
+                        <p class="best-seller__text u-mb-sm">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam nisi quaerat ducimus maxime vel dolore!
+                        </p>
+                        <a href="#" class="btn-inline">Shop now!</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-blog">
+                <div class="blog">
+                    <div class="blog__picture blog__picture--1">&nbsp;</div>
+                    <h3 class="blog__heading">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, aut! Lorem ipsum dolor sit amet consectetur.
+                    </h3>
+                    
+                    <div class="blog__info">
+                        <div class="blog__details">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#icon-stopwatch"></use>
+                            </svg>
+                            <span>12/05/21</span>
+                        </div>
+                        <div class="blog__details">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#icon-chat"></use>
+                            </svg>
+                            <span >5 comments</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <div class="blog__picture blog__picture--2">&nbsp;</div>
+                    <h3 class="blog__heading">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, aut! Lorem ipsum dolor sit.
+                    </h3>
+                    <div class="blog__info">
+                        <div class="blog__details">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#icon-stopwatch"></use>
+                            </svg>
+                            <span>18/09/21</span>
+                        </div>
+                        <div class="blog__details">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#icon-chat"></use>
+                            </svg>
+                            <span >2 comments</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__container">
+                <div class="footer-links">
+                    <h5 class="footer-links__heading">Information</h5>
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Specials</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">New Products</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Top sellets</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Our stores</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Conatct us</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">about us</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5 class="footer-links__heading">My Account</h5>
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">My orders</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">My merchandise returns</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">My credit slips</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">My addresses</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">My personal info</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5 class="footer-links__heading">Categories</h5>
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Rackets</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Clothing</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Shoes</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Bags</a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">Tennis balls</a>
+                        </li>                    
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5 class="footer-links__heading">Store Information</h5>
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <figure class="footer-links__icon-box">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-location-pin"></use>
+                                </svg>
+                            </figure>
+                            
+                            <span>RG Circle, 4578 Marmora Road, Glasgow D04 89GR</span>
+                        </li>
+                        <li class="footer-links__item">
+                            <figure class="footer-links__icon-box">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                                </svg>
+                            </figure>
+                            <span>Call us now: 0123-456-789</span>
+                        </li>
+                        <li class="footer-links__item">
+                            <figure class="footer-links__icon-box">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-mail"></use>
+                                </svg>
+                            </figure>
+                            <span>Email: info@demolink.org</span>
+                        </li>
+                    
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5 class="footer-links__heading">Follow us</h5>
+                    <ul class="footer-links__list footer-links__list--follow-us">
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-facebook-with-circle"></use>
+                                </svg> 
+                            </a>
+                        </li>                    
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-linkedin-with-circle"></use>
+                                </svg> 
+                            </a>
+                        </li>                    
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-twitter-with-circle"></use>
+                                </svg> 
+                            </a>
+                        </li>                    
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                &copy; 2021 Bidyut Deka. This landing page is developed by Bidyut Deka. The layout is made using latest css grid technology.
+                Small items like navigation are coded using flex box.
+            </div>
+            
+        </footer>
+    </div>
+</body>
+</html>

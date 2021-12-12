@@ -1,0 +1,51 @@
+.arrivals {
+    height: 45rem;
+    color: $color-grey-light-3;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-gap: 2rem;
+
+    &__footware,
+    &__apparel,
+    &__bags {
+        background-color: $color-grey-light-2;
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        h3 {
+            margin-bottom: auto;
+        }
+    }
+
+    &__footware {
+        background-image: linear-gradient(rgba(#000, 0.5), rgba(#000, 0.5)),
+            url(../img/footware-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__apparel {
+        grid-row: 1/-1;
+        grid-column: 2/-1;
+
+        background-image: linear-gradient(rgba(#000, 0.5), rgba(#000, 0.5)),
+            url(../img/apparel-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__bags {
+        background-image: linear-gradient(rgba(#000, 0.5), rgba(#000, 0.5)),
+            url(../img/bags-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+    }
+}

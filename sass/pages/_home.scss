@@ -1,0 +1,15 @@
+.section-main {
+    grid-column: 4 / -1;
+
+    & > :not(:last-child()) {
+        margin-bottom: 2rem;
+    }
+}
+
+.section-blog {
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-gap: 2rem;
+}

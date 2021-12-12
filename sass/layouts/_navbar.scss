@@ -1,0 +1,52 @@
+.navbar {
+    grid-column: 1/-1;
+
+    display: flex;
+    align-items: center;
+
+    &__logo-box {
+        margin-right: auto;
+    }
+
+    &__logo {
+        width: 14rem;
+    }
+
+    &__list {
+        list-style: none;
+
+        display: flex;
+    }
+
+    &__item {
+        padding: 0.3rem 2rem;
+        border-right: 1px solid $color-grey-light-4;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+
+    &__link {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: $color-grey-dark;
+    }
+
+    &__sign-in {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-left: 3rem;
+        color: $color-primary;
+
+        display: flex;
+        align-items: center;
+
+        svg {
+            fill: currentColor;
+            height: 2rem;
+            width: 2rem;
+            margin-right: 1rem;
+        }
+    }
+}

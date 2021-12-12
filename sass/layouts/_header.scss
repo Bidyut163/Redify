@@ -1,0 +1,24 @@
+.header {
+    height: 55rem;
+    grid-column: 4/-1;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: min-content 1fr;
+    grid-gap: 2rem;
+
+    &__banner {
+        background-image: linear-gradient(rgba(#000, 0.5), rgba(#000, 0.5)),
+            url(../img/header-image.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-column: 1/-1;
+
+        padding: 0 10rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+}
